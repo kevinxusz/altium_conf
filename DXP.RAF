@@ -1,0 +1,1127 @@
+Resource Allocation File - Version 2.0
+
+Server 'AltiumPortalCache'
+     StartupMode 1
+EndServer
+Server 'ArngeCmp'
+     StartupMode 1
+EndServer
+Server 'AutoPlacer'
+     StartupMode 1
+EndServer
+Server 'CAMtastic'
+     StartupMode 1
+     Editor 'CAMtastic'
+          AvailableBarsList
+               'MNCAMTASTIC_Menu' Menu
+               'HTCAMTASTIC_HotKeys' HotkeyTable
+               'TLMainToolbar' Toolbar
+               'TLCAMUtilities' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'CAMTasticPanel' -1
+     PanelDockInfo 'CAMTasticPanel' -1 0
+EndServer
+Server 'Client'
+     StartupMode 1
+     Editor 'DefaultEditor'
+          AvailableBarsList
+               'MNNoDocument' Menu
+               'HKNoDocument' HotkeyTable
+               'TLNoDocument' Toolbar
+               'TLUNFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'Favorites' 0
+     PanelDockInfo 'Favorites' -1 -1
+     PanelInfo 'Snippets' 0
+     PanelDockInfo 'Snippets' -1 -1
+EndServer
+Server 'CompMake'
+     StartupMode 1
+EndServer
+Server 'CoreBuilder'
+     StartupMode 1
+     Editor 'CoreBuilder'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+EndServer
+Server 'EDesignData'
+     StartupMode 1
+     Editor 'ReleasedItem'
+          AvailableBarsList
+               'MNNoDocument' Menu
+               'HKNoDocument' HotkeyTable
+               'TLNoDocument' Toolbar
+               'TLUNFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBlayout' Toolbar
+          End
+     Editor 'HWPart'
+          AvailableBarsList
+               'MNHWPartEditorMenu' Menu
+               'TBHWPartEditorTools' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'PartChoiceList'
+          AvailableBarsList
+               'MNHWPartEditorMenu' Menu
+               'TBNavigation' Toolbar
+          End
+     PanelInfo 'Vault Explorer' 0
+     PanelDockInfo 'Vault Explorer' -1 0
+     PanelInfo 'CompareItemRevisions' 0
+     PanelDockInfo 'CompareItemRevisions' -1 -1
+     PanelInfo 'AltiumLive' 0
+     PanelDockInfo 'AltiumLive' -1 -1
+EndServer
+Server 'EditConstraints'
+     StartupMode 1
+     Editor 'Constraint'
+          AvailableBarsList
+               'MNEditConstraints' Menu
+               'TLEditConstraints' Toolbar
+               'HTDefault' HotkeyTable
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'VendorConstraint'
+          AvailableBarsList
+               'MNTextEditMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLTextTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'Harness'
+          AvailableBarsList
+               'MNTextEditMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLTextTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'ConstraintsSearchPanel' 0
+     PanelDockInfo 'ConstraintsSearchPanel' -1 0
+EndServer
+Server 'EditEDIF'
+     StartupMode 1
+     Editor 'EDIF'
+          AvailableBarsList
+               'MNTextEDIFFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLEditEDIFTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'EDIFSearchPanel' 0
+     PanelDockInfo 'EDIFSearchPanel' -1 0
+EndServer
+Server 'EditEmbedded'
+     StartupMode 1
+     Editor 'ASM'
+          AvailableBarsList
+               'MNASM' Menu
+               'HTEmbedded' HotkeyTable
+               'TBASM' Toolbar
+               'TLTextUtil' Toolbar
+               'TLEmbeddedDebug_Source' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'C'
+          AvailableBarsList
+               'MNCSource' Menu
+               'HTEmbedded' HotkeyTable
+               'TBCSource' Toolbar
+               'TLTextUtil' Toolbar
+               'TLEmbeddedDebug_Source' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'CPP'
+          AvailableBarsList
+               'MNCSource' Menu
+               'HTEmbedded' HotkeyTable
+               'TBCSource' Toolbar
+               'TLTextUtil' Toolbar
+               'TLEmbeddedDebug_Source' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'H'
+          AvailableBarsList
+               'MNCSource' Menu
+               'HTEmbedded' HotkeyTable
+               'TBCSource' Toolbar
+               'TLTextUtil' Toolbar
+               'TLEmbeddedDebug_Source' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'OIL'
+          AvailableBarsList
+               'MNCSource' Menu
+               'HTDefault' HotkeyTable
+               'TBCSource' Toolbar
+               'TLTextUtil' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'Disassembly'
+          AvailableBarsList
+               'MNDisassembly' Menu
+               'TLFocusedProject' Toolbar
+               'TLDisassembly' Toolbar
+               'TLEmbeddedDebug' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'Profiler'
+          AvailableBarsList
+               'MNNoDocument' Menu
+               'HKNoDocument' HotkeyTable
+               'TLNoDocument' Toolbar
+               'TLUNFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBlayout' Toolbar
+          End
+     Editor 'AGUIDesign'
+          AvailableBarsList
+               'MNAGUIDesign' Menu
+               'HTAGUIDesign' HotkeyTable
+               'TLAGUIDesign' Toolbar
+               'TBNavigation' Toolbar
+          End
+     PanelInfo 'EmbeddedConsole' 0
+     PanelDockInfo 'EmbeddedConsole' -1 -1
+     PanelInfo 'EmbeddedCPU' 0
+     PanelDockInfo 'EmbeddedCPU' -1 -1
+     PanelInfo 'EmbeddedDisassembly' 0
+     PanelDockInfo 'EmbeddedDisassembly' -1 -1
+     PanelInfo 'EmbeddedBreakpoints' 0
+     PanelDockInfo 'EmbeddedBreakpoints' -1 -1
+     PanelInfo 'EmbeddedEvaluate' 0
+     PanelDockInfo 'EmbeddedEvaluate' -1 -1
+     PanelInfo 'EmbeddedWatches' 0
+     PanelDockInfo 'EmbeddedWatches' -1 -1
+     PanelInfo 'EmbeddedCodeExplorer' 0
+     PanelDockInfo 'EmbeddedCodeExplorer' -1 -1
+     PanelInfo 'EmbeddedCrossReferences' 0
+     PanelDockInfo 'EmbeddedCrossReferences' -1 -1
+     PanelInfo 'EmbeddedRTOS' 0
+     PanelDockInfo 'EmbeddedRTOS' -1 -1
+     PanelInfo 'EmbeddedRegisters' 0
+     PanelDockInfo 'EmbeddedRegisters' -1 -1
+     PanelInfo 'EmbeddedStack' 0
+     PanelDockInfo 'EmbeddedStack' -1 -1
+     PanelInfo 'EmbeddedLocals' 0
+     PanelDockInfo 'EmbeddedLocals' -1 -1
+     PanelInfo 'CHCDocView' 0
+     PanelDockInfo 'CHCDocView' -1 -1
+     PanelInfo 'EditEmbeddedComponentPalette' 0
+     PanelDockInfo 'EditEmbeddedComponentPalette' -1 -1
+     PanelInfo 'EditEmbeddedObjectInspector' 0
+     PanelDockInfo 'EditEmbeddedObjectInspector' -1 -1
+     PanelInfo 'EmbeddedPeripherals' 0
+     PanelDockInfo 'EmbeddedPeripherals' -1 -1
+     PanelInfo 'EmbeddedServices' 0
+     PanelDockInfo 'EmbeddedServices' -1 -1
+EndServer
+Server 'EditReport'
+     StartupMode 1
+     Editor 'Report'
+          AvailableBarsList
+               'MNTextReportFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLEditReportTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+EndServer
+Server 'EditScript'
+     StartupMode 1
+     Editor 'EditScript'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'EditScriptDS'
+          AvailableBarsList
+               'MNEditScriptMainMenuDebug' Menu
+               'HTEditScriptHotKeys' HotkeyTable
+               'TLScriptToolsStandard' Toolbar
+               'TLScriptToolsDebug' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'EditScriptDSUnit'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'EditScriptDSForm'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'EditScriptDSDataModule'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'EditScriptBas'
+          AvailableBarsList
+               'MNEditScriptMainMenuDebug' Menu
+               'HTEditScriptHotKeys' HotkeyTable
+               'TLScriptToolsStandard' Toolbar
+               'TLScriptToolsDebug' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'EditScriptTcl'
+          AvailableBarsList
+               'MNEditScriptMainMenuRunOnly' Menu
+               'HTEditScriptHotKeys' HotkeyTable
+               'TLScriptToolsStandard' Toolbar
+               'TLScriptToolsRunOnly' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'EditScriptVBS'
+          AvailableBarsList
+               'MNEditScriptMainMenuDebug' Menu
+               'HTEditScriptHotKeys' HotkeyTable
+               'TLScriptToolsStandard' Toolbar
+               'TLScriptToolsDebug' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'EditScriptVBSUnit'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'EditScriptVBSForm'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'EditScriptVBSDataModule'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'EditScriptJS'
+          AvailableBarsList
+               'MNEditScriptMainMenuDebug' Menu
+               'HTEditScriptHotKeys' HotkeyTable
+               'TLScriptToolsStandard' Toolbar
+               'TLScriptToolsDebug' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'EditScriptJSUnit'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'EditScriptJSForm'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'EditScriptJSDataModule'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'EditScriptInstrument'
+          AvailableBarsList
+               'MNEditScriptMainMenuDebug' Menu
+               'HTEditScriptHotKeys' HotkeyTable
+               'TLScriptToolsStandard' Toolbar
+               'TLScriptToolsDebug' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'EditScriptInclude'
+          AvailableBarsList
+               'MNEditScriptMainMenuDebug' Menu
+               'HTEditScriptHotKeys' HotkeyTable
+               'TLScriptToolsStandard' Toolbar
+               'TLScriptToolsDebug' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'EditScriptBreakPoints' 0
+     PanelDockInfo 'EditScriptBreakPoints' -1 -1
+     PanelInfo 'EditScriptCallStack' 0
+     PanelDockInfo 'EditScriptCallStack' -1 -1
+     PanelInfo 'EditScriptWatchList' 0
+     PanelDockInfo 'EditScriptWatchList' -1 -1
+     PanelInfo 'EditScriptCodeExplorer' 0
+     PanelDockInfo 'EditScriptCodeExplorer' -1 -1
+     PanelInfo 'EditScriptComponentPalette' 0
+     PanelDockInfo 'EditScriptComponentPalette' -1 -1
+     PanelInfo 'EditScriptObjectInspector' 0
+     PanelDockInfo 'EditScriptObjectInspector' -1 -1
+EndServer
+Server 'EditSim'
+     StartupMode 1
+     Editor 'CKT'
+          AvailableBarsList
+               'MNTextAdvSimFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLEditSimTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'MDL'
+          AvailableBarsList
+               'MNTextAdvSimFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLEditSimTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'LB'
+          AvailableBarsList
+               'MNTextAdvSimFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLEditSimTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'NSX'
+          AvailableBarsList
+               'MNTextAdvSimFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLEditSimTools' Toolbar
+               'TLFocusedProject' Toolbar
+               'TLTextUtil' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'NET'
+          AvailableBarsList
+               'MNTextAdvSimFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLEditSimTools' Toolbar
+               'TLFocusedProject' Toolbar
+               'TLTextUtil' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'SimSearchPanel' -1
+     PanelDockInfo 'SimSearchPanel' -1 0
+EndServer
+Server 'EditVHDL'
+     StartupMode 1
+     Editor 'VHDL'
+          AvailableBarsList
+               'MNTextVHDLFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLEditVHDLTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TLVHDLToolbar' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'VHDTST'
+          AvailableBarsList
+               'MNTextVHDLFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLEditVHDLTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TLVHDLToolbar' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'VHDLIB'
+          AvailableBarsList
+               'MNTextVHDLIBSourceFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLVHDLIBTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TLVHDLIBToolbar' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'Verilog'
+          AvailableBarsList
+               'MNTextVerilogFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLEditVerilogTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TLVerilogToolbar' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'VERTST'
+          AvailableBarsList
+               'MNTextVerilogFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLEditVerilogTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TLVerilogToolbar' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'VERLIB'
+          AvailableBarsList
+               'MNTextVHDLIBSourceFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLVHDLIBTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TLVHDLIBToolbar' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'VHDLSearchPanel' 0
+     PanelDockInfo 'VHDLSearchPanel' -1 0
+     PanelInfo 'SimulationBreakpoints' 0
+     PanelDockInfo 'SimulationBreakpoints' -1 -1
+     PanelInfo 'SimulatorWatches' 0
+     PanelDockInfo 'SimulatorWatches' -1 -1
+     PanelInfo 'SimulationSignals' 0
+     PanelDockInfo 'SimulationSignals' -1 0
+     PanelInfo 'VHDLCodeExplorer' -1
+     PanelDockInfo 'VHDLCodeExplorer' -1 -1
+     PanelInfo 'VerilogCodeExplorer' -1
+     PanelDockInfo 'VerilogCodeExplorer' -1 -1
+EndServer
+Server 'EDMSInterface'
+     StartupMode 1
+EndServer
+Server 'EmbeddedStack'
+     StartupMode 1
+     Editor 'EmbeddedStack'
+          AvailableBarsList
+               'MNAppStack' Menu
+               'HTAppStack' HotkeyTable
+               'TBAppStack' Toolbar
+               'TLEmbeddedDebug_Source_SwPlatform' Toolbar
+               'TBNavigation' Toolbar
+          End
+EndServer
+Server 'FootprintWizard'
+     StartupMode 1
+EndServer
+Server 'FpgaFlow'
+     StartupMode 1
+     Editor 'FpgaFlow'
+          AvailableBarsList
+               'MNFpgaFlow' Menu
+               'HTDefault' HotkeyTable
+               'TBFpgaFlow' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'NexusInstrumentPanel' 0
+     PanelDockInfo 'NexusInstrumentPanel' 0 0
+     PanelInfo 'PhysicalDevicePanel' 0
+     PanelDockInfo 'PhysicalDevicePanel' 0 0
+     PanelInfo 'NanoboardDevicePanel' 0
+     PanelDockInfo 'NanoboardDevicePanel' 0 0
+EndServer
+Server 'HelpAdvisor'
+     StartupMode 1
+     PanelInfo 'HelpAdvisor' 0
+     PanelDockInfo 'HelpAdvisor' -1 -1
+     PanelInfo 'Help' 0
+     PanelDockInfo 'Help' -1 -1
+     PanelInfo 'KnowledgeCenter' 0
+     PanelDockInfo 'KnowledgeCenter' -1 -1
+     PanelInfo 'Shortcuts' 0
+     PanelDockInfo 'Shortcuts' -1 -1
+EndServer
+Server 'HSEdit'
+     StartupMode 1
+EndServer
+Server 'ImporterManager'
+     StartupMode 1
+EndServer
+Server 'InstallationManager'
+     StartupMode 1
+     PanelInfo 'Downloads' -1
+     PanelDockInfo 'Downloads' -1 -1
+EndServer
+Server 'IntegratedLibrary'
+     StartupMode 1
+     Editor 'AltiumLib'
+          AvailableBarsList
+               'MNAltiumLibMenu' Menu
+               'HTAltiumLibHotKeys' HotkeyTable
+               'TBAltiumLibTools' Toolbar
+               'TBAssemblyVariants' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'LibraryBrowser' -1
+     PanelDockInfo 'LibraryBrowser' -1 0
+     PanelInfo 'SupplierSearch' -1
+     PanelDockInfo 'SupplierSearch' -1 -1
+     PanelInfo 'SupplierInfo' -1
+     PanelDockInfo 'SupplierInfo' -1 -1
+     PanelInfo 'UnifiedBrowser' -1
+     PanelDockInfo 'UnifiedBrowser' -1 0
+EndServer
+Server 'LayerStackupAnalyzer'
+     StartupMode 1
+EndServer
+Server 'LibraryInterface'
+     StartupMode 1
+EndServer
+Server 'LibraryToVaultReleaser'
+     StartupMode 1
+EndServer
+Server 'LoadPCADPCB'
+     StartupMode 1
+EndServer
+Server 'LogicAnalyser'
+     StartupMode 1
+     Editor 'LogicAnalyser'
+          AvailableBarsList
+               'MNLogicAnalyserMenu' Menu
+               'HTLogicAnalyserHotkeys' HotkeyTable
+               'TLLogicAnalyserMainToolBar' Toolbar
+               'TLFocusedProject' Toolbar
+               'TLWaveTransition' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'LogicAnalyserAnalog'
+          AvailableBarsList
+               'MNLogicAnalyserAnalogMenu' Menu
+               'HTSimViewHotKeyTable' HotkeyTable
+               'TLLogicAnalyserAnalogMainToolBar' Toolbar
+               'TLFocusedProject' Toolbar
+               'TLWaveTools' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+EndServer
+Server 'MakeLib'
+     StartupMode 1
+EndServer
+Server 'NexarRegistry'
+     StartupMode 1
+EndServer
+Server 'PCB'
+     StartupMode 1
+     Editor 'PCB'
+          AvailableBarsList
+               'MNPCBMenu' Menu
+               'HTPCBHotKeys' HotkeyTable
+               'TLPCBToolbar' Toolbar
+               'TLSignalIntegrity' Toolbar
+               'TLFilter' Toolbar
+               'TBAssemblyVariants' Toolbar
+               'TLPCBUtilities' Toolbar
+               'TLPCBWiring' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'Situs'
+          AvailableBarsList
+               'MNSitusMenu' Menu
+               'HTSitusHotKeys' HotkeyTable
+               'TLSitusToolbar' Toolbar
+               'TBNavigation' Toolbar
+          End
+     Editor 'PCBLib'
+          AvailableBarsList
+               'MNPCBLibMenu' Menu
+               'HTPCBLibHotKeys' HotkeyTable
+               'TLPCBLibToolbar' Toolbar
+               'TLPCBLibPlacementTools' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'PCBMultiview' -1
+     PanelDockInfo 'PCBMultiview' -1 0
+     PanelInfo 'PCBObjectInspector' -1
+     PanelDockInfo 'PCBObjectInspector' -1 0
+     PanelInfo 'PCBNavigator' -1
+     PanelDockInfo 'PCBNavigator' -1 0
+     PanelInfo 'PCBMerge' -1
+     PanelDockInfo 'PCBMerge' -1 -1
+     PanelInfo 'PCBLibPanel' -1
+     PanelDockInfo 'PCBLibPanel' -1 0
+     PanelInfo 'PCBExplorer' -1
+     PanelDockInfo 'PCBExplorer' -1 -1
+     PanelInfo 'PCBExpressionFilter' -1
+     PanelDockInfo 'PCBExpressionFilter' -1 -1
+     PanelInfo 'PCBFilter' -1
+     PanelDockInfo 'PCBFilter' -1 -1
+     PanelInfo 'PCBLibFilter' -1
+     PanelDockInfo 'PCBLibFilter' -1 -1
+     PanelInfo 'PCBPlacement' -1
+     PanelDockInfo 'PCBPlacement' -1 -1
+     PanelInfo 'BoardInSight' -1
+     PanelDockInfo 'BoardInSight' -1 -1
+     PanelInfo 'PCBRulesAndViolationsNavigator' -1
+     PanelDockInfo 'PCBRulesAndViolationsNavigator' -1 0
+     PanelInfo 'PCB3DMoviesNavigator' -1
+     PanelDockInfo 'PCB3DMoviesNavigator' -1 0
+EndServer
+Server 'PCB3D'
+     StartupMode 1
+     Editor 'PCB3D'
+          AvailableBarsList
+               'MNPCB3DMenu' Menu
+               'HKPCB3DHotKeyTable' HotkeyTable
+               'TLPCB3DToolBar' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'PCB3DLIB'
+          AvailableBarsList
+               'MNPCB3DLIBMenu' Menu
+               'HKPCB3DLIBHotKeyTable' HotkeyTable
+               'TLPCB3DLIBToolBar' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'PCB3DPanel' -1
+     PanelDockInfo 'PCB3DPanel' -1 0
+     PanelInfo 'PCB3DLibPanel' -1
+     PanelDockInfo 'PCB3DLibPanel' -1 0
+EndServer
+Server 'PCBMaker'
+     StartupMode 1
+EndServer
+Server 'PinSwapper'
+     StartupMode 1
+EndServer
+Server 'Placer'
+     StartupMode 1
+     Editor 'Placer'
+          AvailableBarsList
+               'MNPlacerMenu' Menu
+               'HTPlacerHotKeyTable' HotkeyTable
+               'TLPlacer' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+EndServer
+Server 'ReportGenerator'
+     StartupMode 1
+EndServer
+Server 'RouteCCT'
+     StartupMode 1
+EndServer
+Server 'SavePCADPCB'
+     StartupMode 1
+EndServer
+Server 'Sch'
+     StartupMode 1
+     Editor 'Sch'
+          AvailableBarsList
+               'MNSchematicMenu' Menu
+               'HTSchematicHotKeys' HotkeyTable
+               'TLSchematicTools' Toolbar
+               'TLSimulationSources' Toolbar
+               'TLAdvSimTools' Toolbar
+               'TLSignalIntegrity' Toolbar
+               'TLFormatting' Toolbar
+               'TBAssemblyVariants' Toolbar
+               'TLSchUtilities' Toolbar
+               'TLWiringTools' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+               'HTSchInteractiveHotKeys' HotkeyTable
+          End
+     Editor 'SchLib'
+          AvailableBarsList
+               'MNSchLibMenu' Menu
+               'HTSchLibHotKeys' HotkeyTable
+               'TLSchLibTools' Toolbar
+               'TLSchLibUtilities' Toolbar
+               'TLModeToolbar' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+               'HTSchLibInteractiveHotKeys' HotkeyTable
+          End
+     Editor 'OpenBus'
+          AvailableBarsList
+               'MNOpenBusMenu' Menu
+               'HTOpenBusHotKeys' HotkeyTable
+               'TLOpenBusTools' Toolbar
+               'TLFormatting' Toolbar
+               'TLOpenBusUtilities' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+               'TBOpenBus' Toolbar
+               'HTSchInteractiveHotKeys' HotkeyTable
+          End
+     Editor 'OpenBusComp'
+          AvailableBarsList
+               'MNOpenBusComponentMenu' Menu
+               'HTOpenBusComponentHotKeys' HotkeyTable
+               'TLOpenBusComponentTools' Toolbar
+               'TBNavigation' Toolbar
+               'HTSchInteractiveHotKeys' HotkeyTable
+          End
+     PanelInfo 'SchLibraryPanel' -1
+     PanelDockInfo 'SchLibraryPanel' -1 0
+     PanelInfo 'SchExplorerEditor' -1
+     PanelDockInfo 'SchExplorerEditor' -1 -1
+     PanelInfo 'SchObjectInspector' -1
+     PanelDockInfo 'SchObjectInspector' -1 0
+     PanelInfo 'SchLibObjectInspector' -1
+     PanelDockInfo 'SchLibObjectInspector' -1 0
+     PanelInfo 'OpenBusObjectInspector' -1
+     PanelDockInfo 'OpenBusObjectInspector' -1 0
+     PanelInfo 'LibFilter' -1
+     PanelDockInfo 'LibFilter' -1 -1
+     PanelInfo 'LibList' -1
+     PanelDockInfo 'LibList' -1 -1
+     PanelInfo 'Filter' -1
+     PanelDockInfo 'Filter' -1 -1
+     PanelInfo 'OpenBusFilter' -1
+     PanelDockInfo 'OpenBusFilter' -1 -1
+     PanelInfo 'List' -1
+     PanelDockInfo 'List' -1 -1
+     PanelInfo 'OpenBusList' -1
+     PanelDockInfo 'OpenBusList' -1 -1
+     PanelInfo 'MiniViewer' -1
+     PanelDockInfo 'MiniViewer' -1 -1
+     PanelInfo 'OpenBus Palette' -1
+     PanelDockInfo 'OpenBus Palette' -1 -1
+EndServer
+Server 'SchDwgUtility'
+     StartupMode 1
+EndServer
+Server 'ScriptingSystem'
+     StartupMode 1
+EndServer
+Server 'SignalIntegrity'
+     StartupMode 1
+     Editor 'SiModel'
+          AvailableBarsList
+               'MNSiModelEditorMenu' Menu
+               'TBSiModelEditor_Tools' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'AutoCheck' -1
+     PanelDockInfo 'AutoCheck' 0 0
+EndServer
+Server 'SIM'
+     StartupMode 1
+     Editor 'SimModel'
+          AvailableBarsList
+               'MNSimModelEditorMenu' Menu
+               'TBSimModelEditorTools' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+EndServer
+Server 'SIMetrix'
+     StartupMode 1
+EndServer
+Server 'SimView'
+     StartupMode 1
+     Editor 'SimData'
+          AvailableBarsList
+               'MNSimViewMenu' Menu
+               'HTSimViewHotKeyTable' HotkeyTable
+               'TLSimViewToolBar' Toolbar
+               'TLWaveTools' Toolbar
+               'TLCursorTools' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'SimDataPanel' -1
+     PanelDockInfo 'SimDataPanel' -1 0
+EndServer
+Server 'SpecctraIF'
+     StartupMode 1
+EndServer
+Server 'TextEdit'
+     StartupMode 1
+     Editor 'Text'
+          AvailableBarsList
+               'MNTextEditMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLTextTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'DesignItem'
+          AvailableBarsList
+               'MNTextEditMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLTextTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'ManufacturedItem'
+          AvailableBarsList
+               'MNTextEditMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLTextTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'Annotation'
+          AvailableBarsList
+               'MNTextEditMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLTextTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'ProtelNetlist'
+          AvailableBarsList
+               'MNTextNetlistFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLTextTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'PCAD16_Netlist'
+          AvailableBarsList
+               'MNTextNetlistFileMenu' Menu
+               'HTDefault' HotkeyTable
+               'TLTextTools' Toolbar
+               'TLTextUtil' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'SnippetsView' 0
+     PanelDockInfo 'SnippetsView' -1 -1
+EndServer
+Server 'UnifiedComponent'
+     StartupMode 1
+     Editor 'CmpLib'
+          AvailableBarsList
+               'MNComponentLibMenu' Menu
+               'HTComponentLibHotKeys' HotkeyTable
+               'TBComponentLibTools' Toolbar
+               'TBAssemblyVariants' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+EndServer
+Server 'VersionControl'
+     StartupMode 1
+     PanelInfo 'History' -1
+     PanelDockInfo 'History' 0 -1
+     PanelInfo 'StorageExplorer' -1
+     PanelDockInfo 'StorageExplorer' -1 -1
+EndServer
+Server 'Wave'
+     StartupMode 1
+     Editor 'Wave'
+          AvailableBarsList
+               'MNWaveMenu' Menu
+               'HTWaveHotkeys' HotkeyTable
+               'TLWaveMainToolBar' Toolbar
+               'TLVHDLToolbar' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     PanelInfo 'WavePanel' -1
+     PanelDockInfo 'WavePanel' -1 0
+EndServer
+Server 'WaveSim'
+     StartupMode 1
+     Editor 'WaveSim'
+          AvailableBarsList
+               'MNWaveSimMenu' Menu
+               'HTWaveSimHotkeys' HotkeyTable
+               'TLWaveSimMainToolBar' Toolbar
+               'TLFocusedProject' Toolbar
+               'TLWaveTransition' Toolbar
+               'TLVHDLToolbar' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+EndServer
+Server 'WorkspaceManager'
+     StartupMode 1
+     Editor 'ProjectGroup'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'FreeDocsProject'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'DefaultPcb'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'DefaultPcbLib'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'PcbProject'
+          AvailableBarsList
+               'MNProjectView' Menu
+               'TBProjectView' Toolbar
+               'TBNavigation' Toolbar
+               'TBlayout' Toolbar
+               'TBAssemblyVariants' Toolbar
+          End
+     Editor 'FpgaProject'
+          AvailableBarsList
+               'MNProjectView' Menu
+               'TBProjectView' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'CoreProject'
+          AvailableBarsList
+               'MNProjectView' Menu
+               'TBProjectView' Toolbar
+               'TBNavigation' Toolbar
+               'TBlayout' Toolbar
+          End
+     Editor 'EmbeddedProject'
+          AvailableBarsList
+               'MNProjectView' Menu
+               'TBProjectView' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'IntegratedLibrary'
+          AvailableBarsList
+               'MNProjectView' Menu
+               'TBProjectView' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'ScriptProject'
+          AvailableBarsList
+               'MNProjectView' Menu
+               'TBProjectView' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'IntLibrary'
+          AvailableBarsList
+               'TBNavigation' Toolbar
+          End
+     Editor 'OutputJob'
+          AvailableBarsList
+               'MNJobManager' Menu
+               'HTJobManager' HotkeyTable
+               'TBJobManager' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'DatabaseLink'
+          AvailableBarsList
+               'MNDatabaseLink' Menu
+               'HTDatabaseLink' HotkeyTable
+               'TBDatabaseLink' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'DatabaseLib'
+          AvailableBarsList
+               'MNDatabaseLink' Menu
+               'HTDatabaseLink' HotkeyTable
+               'TBDatabaseLink' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'SVNDatabaseLib'
+          AvailableBarsList
+               'MNSVNDatabaseLink' Menu
+               'HTDatabaseLink' HotkeyTable
+               'TBDatabaseLink' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'PCBReleaseView'
+          AvailableBarsList
+               'MNPCBReleaseView' Menu
+               'HTDefault' HotkeyTable
+               'TBPCBReleaseView' Toolbar
+               'TLFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBLayout' Toolbar
+          End
+     Editor 'PickATask'
+          AvailableBarsList
+               'MNNoDocument' Menu
+               'HKNoDocument' HotkeyTable
+               'TLNoDocument' Toolbar
+               'TLUNFocusedProject' Toolbar
+               'TBNavigation' Toolbar
+               'TBlayout' Toolbar
+          End
+     PanelInfo 'NewDocuments' -1
+     PanelDockInfo 'NewDocuments' -1 0
+     PanelInfo 'Workspace' -1
+     PanelDockInfo 'Workspace' -1 -1
+     PanelInfo 'Messages' -1
+     PanelDockInfo 'Messages' -1 -1
+     PanelInfo 'Output' 0
+     PanelDockInfo 'Output' -1 -1
+     PanelInfo 'ToDo' -1
+     PanelDockInfo 'ToDo' -1 -1
+     PanelInfo 'Clipboard' -1
+     PanelDockInfo 'Clipboard' -1 -1
+     PanelInfo 'Navigator' -1
+     PanelDockInfo 'Navigator' -1 0
+     PanelInfo 'InternalProperties' 0
+     PanelDockInfo 'InternalProperties' -1 -1
+     PanelInfo 'Errors' 0
+     PanelDockInfo 'Errors' -1 -1
+     PanelInfo 'Differences' 0
+     PanelDockInfo 'Differences' -1 -1
+     PanelInfo 'Browser' -1
+     PanelDockInfo 'Browser' 0 0
+EndServer

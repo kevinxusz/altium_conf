@@ -1,0 +1,99 @@
+Tree PickATaskCustom Caption='[Custom]' TopLevel='True'  End
+Tree PCBCustom Caption='[Custom]' TopLevel='True'  End
+Tree SchLibCustom Caption='[Custom]' TopLevel='True'  End
+Tree PCBLibCustom Caption='[Custom]' TopLevel='True' 
+    Link _User15 PLID='_User14'      End
+End
+Tree SchCustom Caption='[Custom]' TopLevel='True'  End
+PL _User14 Command='PCB:Select' Params='Scope = Layer' Caption='All on La&yer' Description='Select All on Current Layer' DefaultChecked=0  End
+Insertion _User3 TargetID='TLFilter' InsertType='After' RefID0='TBPCB_Filter50' 
+    Link _User2 PLID='PLPCB:SelectAllOnLayer'      End
+End
+Insertion _User4 TargetID='TLSchLibUtilities' RefID0='TLSchLibIEEETools' 
+    Link TBSchematic_SchLibDrawingTools160_User PLID='PLSch:PlacePin'      End
+End
+Deletion _User5 TargetID='TLSchLibDrawingTools' DeleteID='TBSchematic_SchLibDrawingTools160'  End
+Insertion _User6 TargetID='TLSchLibUtilities' RefID0='TLSchLibIEEETools' 
+    Link TBSchematic_SchLibDrawingTools120_User PLID='PLSch:PlaceRoundRectangle'      End
+End
+Deletion _User7 TargetID='TLSchLibDrawingTools' DeleteID='TBSchematic_SchLibDrawingTools120'  End
+Insertion _User8 TargetID='TLSchLibUtilities' RefID0='TLSchLibIEEETools' 
+    Link TBSchematic_SchLibDrawingTools110_User PLID='PLSch:PlaceRectangle'      End
+End
+Deletion _User9 TargetID='TLSchLibDrawingTools' DeleteID='TBSchematic_SchLibDrawingTools110'  End
+Insertion _User10 TargetID='TLSchLibUtilities' RefID0='TBSchematic_SchLibDrawingTools120_User' 
+    Link TBSchematic_SchLibDrawingTools20_User PLID='PLSch:PlaceLine'      End
+End
+Deletion _User11 TargetID='TLSchLibDrawingTools' DeleteID='TBSchematic_SchLibDrawingTools20'  End
+Insertion _User12 TargetID='TLSchLibUtilities' RefID0='TLSchLibSnapGrid' 
+    Tree TLSchLibIEEETools_User Image='IEEEimage.bmp' Columns=7 
+        Link TBSchematic_SchLibIEEETools20_User PLID='PLSch:PlaceIEEEDotSymbol'          End
+        Link TBSchematic_SchLibIEEETools30_User PLID='PLSch:PlaceIEEERightLeftSignalFlowSymbol'          End
+        Link TBSchematic_SchLibIEEETools40_User PLID='PLSch:PlaceIEEEClockSymbol'          End
+        Link TBSchematic_SchLibIEEETools50_User PLID='PLSch:PlaceIEEEActiveLowInputSymbol'          End
+        Link TBSchematic_SchLibIEEETools70_User PLID='PLSch:PlaceIEEEAnalogSignalInSymbol'          End
+        Link TBSchematic_SchLibIEEETools80_User PLID='PLSch:PlaceIEEENotLogicConnectionSymbol'          End
+        Link TBSchematic_SchLibIEEETools90_User PLID='PLSch:PlaceIEEEPostponedOutputSymbol'          End
+        Link TBSchematic_SchLibIEEETools100_User PLID='PLSch:PlaceIEEEOpenCollectorSymbol'          End
+        Link TBSchematic_SchLibIEEETools120_User PLID='PLSch:PlaceIEEEHizSymbol'          End
+        Link TBSchematic_SchLibIEEETools130_User PLID='PLSch:PlaceIEEEHighCurrentSymbol'          End
+        Link TBSchematic_SchLibIEEETools140_User PLID='PLSch:PlaceIEEEPulseSymbol'          End
+        Link TBSchematic_SchLibIEEETools150_User PLID='PLSch:PlaceIEEEDelaySymbol'          End
+        Link TBSchematic_SchLibIEEETools170_User PLID='PLSch:PlaceIEEEGroupLineSymbol'          End
+        Link TBSchematic_SchLibIEEETools180_User PLID='PLSch:PlaceIEEEGroupBinarySymbol'          End
+        Link TBSchematic_SchLibIEEETools190_User PLID='PLSch:PlaceIEEEActiveLowOutputSymbol'          End
+        Link TBSchematic_SchLibIEEETools200_User PLID='PLSch:PlaceIEEEPiSymbolSymbol'          End
+        Link TBSchematic_SchLibIEEETools220_User PLID='PLSch:PlaceIEEEGreaterEqualSymbol'          End
+        Link TBSchematic_SchLibIEEETools230_User PLID='PLSch:PlaceIEEEOpenCollectorPullUpSymbol'          End
+        Link TBSchematic_SchLibIEEETools240_User PLID='PLSch:PlaceIEEEOpenEmitterSymbol'          End
+        Link TBSchematic_SchLibIEEETools250_User PLID='PLSch:PlaceIEEEOpenEmitterPullUpSymbol'          End
+        Link TBSchematic_SchLibIEEETools270_User PLID='PLSch:PlaceIEEEDigitalSignalInSymbol'          End
+        Link TBSchematic_SchLibIEEETools280_User PLID='PLSch:PlaceIEEEInvertorSymbol'          End
+        Link TBSchematic_SchLibIEEETools290_User PLID='PLSch:PlaceIEEEOrGateSymbol'          End
+        Link TBSchematic_SchLibIEEETools300_User PLID='PLSch:PlaceIEEEInputOutputSymbol'          End
+        Link TBSchematic_SchLibIEEETools310_User PLID='PLSch:PlaceIEEEAndGateSymbol'          End
+        Link TBSchematic_SchLibIEEETools320_User PLID='PLSch:PlaceIEEEXorGateSymbol'          End
+        Link TBSchematic_SchLibIEEETools330_User PLID='PLSch:PlaceIEEEShiftLeftSymbol'          End
+        Link TBSchematic_SchLibIEEETools340_User PLID='PLSch:PlaceIEEELessEqualSymbol'          End
+        Link TBSchematic_SchLibIEEETools350_User PLID='PLSch:PlaceIEEESigmaSymbol'          End
+        Link TBSchematic_SchLibIEEETools360_User PLID='PLSch:PlaceIEEESchmittSymbol'          End
+        Link TBSchematic_SchLibIEEETools370_User PLID='PLSch:PlaceIEEEShiftRightSymbol'          End
+        Link TBSchematic_SchLibIEEETools380_User PLID='PLSch:PlaceIEEEOpenCircuitOutput'          End
+        Link TBSchematic_SchLibIEEETools390_User PLID='PLSch:PlaceIEEELeftRightSignalFlow'          End
+        Link TBSchematic_SchLibIEEETools400_User PLID='PLSch:PlaceIEEEBidirectionalSignalFlow'          End
+    End
+End
+Deletion _User13 TargetID='TLSchLibUtilities' DeleteID='TLSchLibIEEETools'  End
+Insertion _User17 TargetID='TLPCBLibToolbar' RefID0='TBPCBLib_PCBLibStandard400' 
+    Link _User16 PLID='_User14'      End
+End
+Insertion _User19 TargetID='TLPCBLibPlacementTools' RefID0='TBPCBLib_PCBLibPlacement120' 
+    Separator _User18      End
+End
+Insertion _User20 TargetID='TLPCBLibPlacementTools' RefID0='_User18' 
+    Link _User16_User PLID='_User14'      End
+End
+Deletion _User21 TargetID='TLPCBLibToolbar' DeleteID='_User16'  End
+Insertion _User22 TargetID='TLPCBLibPlacementTools' RefID0='_User18' 
+    Link _User16_User_User PLID='_User14'      End
+End
+Deletion _User23 TargetID='TLPCBLibPlacementTools' DeleteID='_User16_User'  End
+Insertion _User25 TargetID='TLPCBLibPlacementTools' RefID0='_User16_User_User' 
+    Link _User24 PLID='PLPCB:LibMoveSelection'      End
+End
+Insertion _User27 TargetID='TLPCBLibPlacementTools' RefID0='_User16_User_User' 
+    Link _User26 PLID='PLPCB:OffsetSelection'      End
+End
+Insertion _User29 TargetID='TLPCBLibPlacementTools' RefID0='_User18' 
+    Separator _User28      End
+End
+Insertion _User30 TargetID='TLPCBLibPlacementTools' RefID0='TBPCBLib_PCBLibPlacement115' 
+    Link TBPCBLib_PCBLibPlacement120_User PLID='PLPCB:PasteArray'      End
+End
+Deletion _User31 TargetID='TLPCBLibPlacementTools' DeleteID='TBPCBLib_PCBLibPlacement120'  End
+Insertion _User33 TargetID='TLFilter' RefID0='_User2' 
+    Link _User32 PLID='PLPCB:MoveSelection'      End
+End
+Insertion _User35 TargetID='TLFilter' RefID0='_User2' 
+    Link _User34 PLID='PLPCB:OffsetSelection'      End
+End
